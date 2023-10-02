@@ -1,5 +1,6 @@
 package lesson_1
 
 fun main() {
-    println("Это решение для задачи 1 из урока 1")
+    var numberOfOrders: Long = 75
+    var postOrderMessage: String = "Thank you for your order!!!"
 }
