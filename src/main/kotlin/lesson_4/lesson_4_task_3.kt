@@ -6,8 +6,5 @@ fun main() {
     var humidity = 20
     var season = "зима"
     println("Благоприятные ли условия сейчас для роста бобовых? " +
-            "${isSunny && 
-               isTentOpen && 
-               humidity == 20 && 
-               season != "зима"}")
+            "${isSunny && isTentOpen && humidity == 20 && season != "зима"}")
 }
