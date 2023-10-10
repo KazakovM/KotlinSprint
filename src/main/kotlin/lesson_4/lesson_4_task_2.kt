@@ -14,7 +14,7 @@ fun main() {
                 "соответствует категории 'Average': " +
                 "${
                     (itemOneWeight in allowedWeight &&
-                    itemOneVolume < maxVolume)
+                            itemOneVolume < maxVolume)
                 }"
     )
     println(
@@ -22,7 +22,7 @@ fun main() {
                 "соответствует категории 'Average': " +
                 "${
                     (itemTwoWeight in allowedWeight &&
-                    itemTwoVolume < maxVolume)
+                            itemTwoVolume < maxVolume)
                 }"
     )
 }
