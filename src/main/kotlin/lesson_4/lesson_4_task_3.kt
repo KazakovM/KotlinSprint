@@ -1,10 +1,10 @@
 package lesson_4
 
 fun main() {
-    var isSunny = true
-    var isTentOpen = true
-    var humidity = 20
-    var season = "зима"
-    println("Благоприятные ли условия сейчас для роста бобовых? " +
-            "${isSunny && isTentOpen && humidity == 20 && season != "зима"}")
+    val isSunny = true
+    val isTentOpen = true
+    val humidity = 20
+    val season = "зима"
+    val isGoodCondition = isSunny && isTentOpen && humidity == 20 && season != "зима"
+    println("Благоприятные ли условия сейчас для роста бобовых? $isGoodCondition")
 }
